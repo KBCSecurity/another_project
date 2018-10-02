@@ -1,0 +1,5 @@
+c:\users\dermutz\documents\visual studio 2015\Projects\ModBusIP\ModBusIP\obj\Debug\ModBusIP.csprojResolveAssemblyReference.cache
+c:\users\dermutz\documents\visual studio 2015\Projects\ModBusIP\ModBusIP\bin\Debug\ModBusIP.exe
+c:\users\dermutz\documents\visual studio 2015\Projects\ModBusIP\ModBusIP\bin\Debug\ModBusIP.pdb
+c:\users\dermutz\documents\visual studio 2015\Projects\ModBusIP\ModBusIP\obj\Debug\ModBusIP.exe
+c:\users\dermutz\documents\visual studio 2015\Projects\ModBusIP\ModBusIP\obj\Debug\ModBusIP.pdb
