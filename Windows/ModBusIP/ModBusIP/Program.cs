@@ -19,7 +19,7 @@ namespace ModBusIP
             try
             {
                 // Create new modbus master and add event functions
-                MBmaster = new Master("192.168.1.100", 502, true);
+                MBmaster = new Master("192.168.1.50", 502, true);
                 MBmaster.OnResponseData += new ModbusTCP.Master.ResponseData(MBmaster_OnResponseData);
                 MBmaster.OnException += new ModbusTCP.Master.ExceptionData(MBmaster_OnException);
                 Console.WriteLine("Successfully connected...");
