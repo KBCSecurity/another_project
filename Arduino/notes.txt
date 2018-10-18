@@ -1,0 +1,26 @@
+UPDOWN 	- -> rauf
+	+ -> runter
+
+FORWARD
+	- -> runter
+	+ -> rauf
+
+SCHWENK
+	- -> rechts
+	+ -> links
+
+GREIFSCHWENK
+	- -> 
+	+ ->
+
+GREIF
+	- -> offen
+	+ -> zu
+
+
+Belegeung
+0 UPDOWN
+1 FORWARD
+2 SCHWENK
+3 GREIFSCHWENK
+4 GREIFER

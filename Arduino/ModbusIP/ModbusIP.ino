@@ -37,9 +37,9 @@ void setup() {
     mb.config(mac, ip);
     
     // Add SERVO_HREG register - Use addHreg() for analog outpus or to store values in device 
-    mb.addHreg(SERVO_SCHWENK);
-    mb.addHreg(SERVO_UPDOWN);
-    mb.addHreg(SERVO_FORWARD);
+    mb.addHreg(SERVO_SCHWENK, 2048);
+    mb.addHreg(SERVO_UPDOWN, 2048);
+    mb.addHreg(SERVO_FORWARD, 2048);
     mb.addHreg(SERVO_GREIF);
     mb.addHreg(SERVO_GREIFSCHWENK);
 
@@ -56,6 +56,6 @@ void loop() {
    pwm.setPWM(1, 0, map(mb.Hreg(SERVO_FORWARD), 0, 120, 210, 440));
    pwm.setPWM(2, 0, map(mb.Hreg(SERVO_SCHWENK), 0, 180, 130, 560));
    pwm.setPWM(3, 0, map(mb.Hreg(SERVO_GREIFSCHWENK), 0, 180, 130, 200));
-   pwm.setPWM(4, 0, map(mb.Hreg(SERVO_GREIF), 0, 100, 40, 140));
+   pwm.setPWM(4, 0, map(mb.Hreg(SERVO_GREIF), 0, 100, 40, 400));
    
 }

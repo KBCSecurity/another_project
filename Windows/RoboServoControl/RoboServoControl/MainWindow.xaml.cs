@@ -145,5 +145,19 @@ namespace RoboServoControl
 
 
         }
+
+        private void greiferauf_Click(object sender, RoutedEventArgs e)
+        {
+            byte[] moredata = new byte[4];
+            moredata[1] = byte.Parse("90"); // Auf (max 140)
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 13, moredata);
+        }
+
+        private void greiferzu_Click(object sender, RoutedEventArgs e)
+        {
+            byte[] moredata = new byte[4];
+            moredata[1] = byte.Parse("50"); // Zu mit einem kleinen Buffer (max 40)
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 13, moredata);
+        }
     }
 }
