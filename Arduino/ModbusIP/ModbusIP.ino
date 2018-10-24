@@ -52,10 +52,10 @@ void loop() {
    mb.task();
    
    //Register the servos (degree, minwinkel, maxwinkel, minservero, maxservo)
-   pwm.setPWM(0, 0, map(mb.Hreg(SERVO_UPDOWN), 0, 90, 240, 490));
+   pwm.setPWM(0, 0, map(mb.Hreg(SERVO_UPDOWN), 0, 90, 200, 520));
    pwm.setPWM(1, 0, map(mb.Hreg(SERVO_FORWARD), 0, 120, 210, 440));
    pwm.setPWM(2, 0, map(mb.Hreg(SERVO_SCHWENK), 0, 180, 130, 560));
-   pwm.setPWM(3, 0, map(mb.Hreg(SERVO_GREIFSCHWENK), 0, 180, 130, 200));
+   pwm.setPWM(3, 0, map(mb.Hreg(SERVO_GREIFSCHWENK), 0, 180, 90, 450));
    pwm.setPWM(4, 0, map(mb.Hreg(SERVO_GREIF), 0, 100, 40, 400));
    
 }
