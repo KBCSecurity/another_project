@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 using ModbusTCP;
 
 namespace RoboServoControl
@@ -158,6 +159,113 @@ namespace RoboServoControl
             byte[] moredata = new byte[4];
             moredata[1] = byte.Parse("50"); // Zu mit einem kleinen Buffer (max 40)
             MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 13, moredata);
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            byte[] moredata = new byte[4];
+            moredata[1] = byte.Parse("0");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 11, moredata);
+            moredata[1] = byte.Parse("90"); // Auf (max 140)
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 13, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("30");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 14, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("115");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 12, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("160");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 10, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("30");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 11, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("40");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 11, moredata);
+            Thread.Sleep(1000);
+        }
+
+        private void kugel_Click(object sender, RoutedEventArgs e)
+        {
+            byte[] moredata = new byte[4];
+            moredata[1] = byte.Parse("5");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 11, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("125");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 14, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("160");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 10, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("92");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 12, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("25");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 11, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("50"); // Zu mit einem kleinen Buffer (max 40)
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 13, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("5");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 11, moredata);
+            Thread.Sleep(1000);
+        }
+
+        private void links_Click(object sender, RoutedEventArgs e)
+        {
+            byte[] moredata = new byte[4];
+            moredata[1] = byte.Parse("30");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 14, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("132");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 10, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("35");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 12, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("90"); // Auf (max 140)
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 13, moredata);
+            Thread.Sleep(1000);
+        }
+
+        private void rechts_Click(object sender, RoutedEventArgs e)
+        {
+            byte[] moredata = new byte[4];
+            moredata[1] = byte.Parse("30");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 14, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("110");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 10, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("72");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 12, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("17");
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 11, moredata);
+            Thread.Sleep(1000);
+            moredata[1] = byte.Parse("90"); // Auf (max 140)
+            MBmaster.WriteSingleRegister(1, Convert.ToByte("1"), 13, moredata);
+            Thread.Sleep(1000);
+        }
+
+        private void work_Click(object sender, RoutedEventArgs e)
+        {
+            //IDLE
+            button_Click(null, null);
+            //5x LINKS
+            for(int i = 0;i<5;i++)
+            {
+                kugel_Click(null, null);
+                links_Click(null, null);
+            }
+            //5x RECHTS
+            for (int i = 0; i < 5; i++)
+            {
+                kugel_Click(null, null);
+                rechts_Click(null, null);
+            }
+
         }
     }
 }

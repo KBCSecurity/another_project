@@ -32,7 +32,7 @@ void setup() {
     // The media access control (ethernet hardware) address for the shield
     byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };  
     // The IP address for the shield
-    byte ip[] = { 192, 168, 1, 100 };   
+    byte ip[] = { 10, 99, 13, 37 };   
     //Config Modbus IP 
     mb.config(mac, ip);
     
