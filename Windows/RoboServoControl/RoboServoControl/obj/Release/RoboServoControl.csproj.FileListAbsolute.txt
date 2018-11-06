@@ -11,3 +11,16 @@ C:\Users\dermutz\documents\visual studio 2015\Projects\RoboServoControl\RoboServ
 C:\Users\dermutz\documents\visual studio 2015\Projects\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.csproj.GenerateResource.Cache
 C:\Users\dermutz\documents\visual studio 2015\Projects\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.exe
 C:\Users\dermutz\documents\visual studio 2015\Projects\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.pdb
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.exe
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.pdb
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\bin\Release\RoboServoControl.exe
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\bin\Release\RoboServoControl.pdb
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.csprojResolveAssemblyReference.cache
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\MainWindow.g.cs
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\App.g.cs
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl_MarkupCompile.cache
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl_MarkupCompile.lref
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\MainWindow.baml
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.g.resources
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.Properties.Resources.resources
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Release\RoboServoControl.csproj.GenerateResource.Cache

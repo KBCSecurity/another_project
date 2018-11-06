@@ -11,3 +11,16 @@ c:\users\dermutz\documents\visual studio 2015\Projects\RoboServoControl\RoboServ
 c:\users\dermutz\documents\visual studio 2015\Projects\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.csproj.GenerateResource.Cache
 c:\users\dermutz\documents\visual studio 2015\Projects\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.exe
 c:\users\dermutz\documents\visual studio 2015\Projects\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.pdb
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\bin\Debug\RoboServoControl.exe
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\bin\Debug\RoboServoControl.pdb
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.csprojResolveAssemblyReference.cache
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\MainWindow.g.cs
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\App.g.cs
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl_MarkupCompile.cache
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl_MarkupCompile.lref
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\MainWindow.baml
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.g.resources
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.Properties.Resources.resources
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.csproj.GenerateResource.Cache
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.exe
+C:\Users\dermutz\Documents\_GIT\another_project\Windows\RoboServoControl\RoboServoControl\obj\Debug\RoboServoControl.pdb
